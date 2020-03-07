@@ -37,7 +37,6 @@ welcome_message = '''
 '''
 
 share_id = chat_id < 0 and chat_id * -1 - 1000000000000 or chat_id
-#chat-1001172987634
 elastic_index = "chat" + str(chat_id)
 
 mapping = {
