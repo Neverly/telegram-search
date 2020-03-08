@@ -44,8 +44,8 @@ mapping = {
     "content": {
       "type": "text",
       "analyzer": "ik_max_word",
-#      "search_analyzer": "ik_smart"
-      "search_analyzer": "ik_max_word"
+      "search_analyzer": "ik_smart"
+#      "search_analyzer": "ik_max_word"
     },
     "url": {
       "type": "text"
