@@ -1,6 +1,7 @@
 # Telegram Search Bot
 
-这个bot从 Bot：[@awesomeopensource_search_bot](http://t.me/awesomeopensource_search_bot) fork而来。
+
+这个bot从Bot：[@awesomeopensource_search_bot](http://t.me/awesomeopensource_search_bot) fork而来。
 
 增加了对搜索结果中name，date的显示，以及相应的索引
 
@@ -56,6 +57,8 @@
     把 session 文件夹和源码部署到服务器。
 
     修改 docker-compose.yml 中的环境变量
+
+    讲docker-compose.yml中的`data`改为绝对路径，最好保证一下读写权限
 
     使用 docker-compose 部署：`docker-compose up -d`
     

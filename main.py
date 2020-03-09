@@ -74,6 +74,7 @@ mapping = {
       "type": "text",
       "analyzer": "ik_max_word",
       "search_analyzer": "ik_smart"
+
     },
     "url": {
       "type": "text"
